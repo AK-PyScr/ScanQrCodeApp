@@ -1,0 +1,27 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+.inputText{
+    background-color: rgba(232, 214, 202, 0.527);
+    height: 30px;
+    width: 200px;
+    border: 1;
+    border-radius: 5px;
+}
+.generate {
+    background-color: rgb(215, 80, 26);
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 20px;
+}
+
+.generate:hover {
+    opacity: 0.8;
+}
+
